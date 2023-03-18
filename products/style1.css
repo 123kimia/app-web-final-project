@@ -1,0 +1,101 @@
+body{
+    background-color: #231942;
+    padding: 3%;
+    text-align: center;
+}
+header{
+    text-align: right;
+}
+nav{
+    background-color: #484553ac;
+    height: 50px;
+    width: 100%;
+    margin: -0.5% 0px 0px 1px;
+    padding: 0.2% 0% 1.5% 0%;
+}
+.head{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+    margin-top: 1px;
+    padding: 1%;
+}
+#head:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#fhead{
+    margin-left: 30%;
+}
+#btn1{
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    background:linear-gradient(#e0b1cb, #9f86c0, #9f86c0);
+    color: #231942;
+    border: 1px solid #231942;
+    border-radius: 5px;
+}
+.pd{
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    margin: 1%;
+    padding: 1%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pd:hover{
+    color: #231942;
+    border: 1px solid #231942;
+    background-color: white;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #231942;
+}
+audio::-webkit-media-controls-mute-button {
+    background-color: white;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+}
+audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+audio::-webkit-media-controls-current-time-display {
+    color: white;
+}
+audio::-webkit-media-controls-timeline {
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+audio::-webkit-media-controls-volume-slider {
+    background-color: #9f86c0;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    font-size: 100%;
+    width: 100%;
+    position: bottom;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+
+}
