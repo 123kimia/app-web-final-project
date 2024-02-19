@@ -7,6 +7,13 @@
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.content{
+    max-wight : 100%
+    Display: flex;
+    Justifay-content:center;
+    Flex-wrap:wrap;
+}
+
 nav{
     background-color: #484553ac;
     height: 50px;
