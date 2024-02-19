@@ -81,6 +81,39 @@ a{
     color: white; 
 }
 
+@media (max-width: 991px) {
+	.content {
+
+	background-color: none;
+
+}
+  
+@media (max-width: 767px) {
+	.content {
+	background-color: blue;
+
+}
+    #main .head {
+		flex-wrap: wrap;
+		column-gap: 2px;
+		row-gap: 10px;
+	}
+    #main .head #home {
+		width: 48%;
+		box-sizing: border-box;
+	}
+
+    
+@media (max-width: 575px) {
+	.content {
+
+	background-color: greenyellow;
+	
+}
+      #main .head .content {
+		  width: 100%; 
+	  }
+
 /* ABOUT SECTION */
 .footer {
     background-color: black;
